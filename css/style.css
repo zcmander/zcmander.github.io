@@ -246,6 +246,10 @@ button:focus,
     margin-right : 30px;
     }
 
+.header .profile-img img {
+    max-height: 500px;
+}
+
 .header .name-wrapper {
     margin-bottom : 30px;
     }
@@ -280,7 +284,7 @@ button:focus,
     color : #989898;
     }
 
-@media (max-width : 768px) {
+@media (max-width : 992px) {
     .header {
         padding    : 20px 0;
         }
