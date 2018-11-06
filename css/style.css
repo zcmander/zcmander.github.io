@@ -481,23 +481,23 @@ button:focus,
  * Review
  *-----------------*/
 
-#review .owl-wrapper .owl-item{
+.review .owl-wrapper .owl-item{
     padding-right: 20px;
     }
-#review .media-left{
+.review .media-left{
     padding-right: 15px;
     }
-#review .media-left img{
+.review .media-left img{
     width: 50px;
     border-radius: 3px;
     }
 
-#review .user-name{
+.review .user-name{
     color: #444;
     font-weight: 500;
     }
 
-#review .review-text{
+.review .review-text{
     margin: 10px 0;
     }
 
