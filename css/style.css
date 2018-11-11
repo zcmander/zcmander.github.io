@@ -250,6 +250,25 @@ button:focus,
     max-height: 500px;
 }
 
+@media print {
+    .header .profile-img img {
+        max-height: 300px;
+    }   
+
+    .header {
+        page-break-after: always;
+    }
+
+    .section-keytechnology {
+        page-break-before: always;
+        page-break-after: always;
+    }
+
+    .portfolio-info {
+        background-color: white;
+    }
+}
+
 .header .name-wrapper {
     margin-bottom : 30px;
     }
